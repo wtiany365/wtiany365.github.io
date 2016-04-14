@@ -27,12 +27,12 @@ redcarpet:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Thomas Zhao Studio
+title : 明煦 BLOG
 tagline: Site Tagline
 author :
-  name : Thomas Zhao
-  email : centipedecn@gmail.com
-  github : thomaszhao
+  name : 明煦
+  email : wtiany365@gmail.com
+  github : wtiany365
   #twitter : username
   #feedburner : feedname
 
@@ -44,9 +44,9 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://www.thomaszhao.cn
-production_sitename : www.thomaszhao.cn
-repository_url: https://github.com/thomaszhao/thomaszhao.github.io/blob/master/
+production_url : http://mingxu.ga
+production_sitename : mingxu.ga
+repository_url: https://github.com/wtiany365/wtiany365.github.io/
 
 #  specify configuration in the pages and posts for your site.
 defaults:
@@ -118,7 +118,7 @@ JB :
   comments :
     provider : duoshuo
     duoshuo:
-            short_name: thomaszhao
+            short_name: 明煦
     #disqus :
     #  short_name : jekyllbootstrap
     #livefyre :
