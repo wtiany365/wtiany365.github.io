@@ -27,10 +27,10 @@ redcarpet:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 明煦 BLOG
+title : 雨知 BLOG
 tagline: Site Tagline
 author :
-  name : 明煦
+  name : 雨知
   email : wtiany365@gmail.com
   github : wtiany365
   #twitter : username
@@ -118,7 +118,7 @@ JB :
   comments :
     provider : duoshuo
     duoshuo:
-            short_name: 明煦
+            short_name: 雨知
     #disqus :
     #  short_name : jekyllbootstrap
     #livefyre :

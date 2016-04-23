@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 明煦 Blog
+title: 雨知 Blog
 tagline: 
 ---
 {% include JB/setup %}
