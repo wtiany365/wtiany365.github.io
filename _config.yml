@@ -44,8 +44,8 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://mingxu.ga
-production_sitename : mingxu.ga
+production_url : http://yuzhi.ga
+production_sitename : yuzhi.ga
 repository_url: https://github.com/wtiany365/wtiany365.github.io/
 
 #  specify configuration in the pages and posts for your site.
