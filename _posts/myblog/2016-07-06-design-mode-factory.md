@@ -52,6 +52,7 @@ class operateMultiplication extends operate{
 class operateDivision extends operate{
     function getResult(){
         if($b == 0) throw new ArithmeticException;
+        return $a / $b;
     }
 }
 
