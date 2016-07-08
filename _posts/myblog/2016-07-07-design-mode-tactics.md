@@ -23,11 +23,25 @@ class aliPay implements pay{
         echo 'ali pay';
     }
 }
+class payFactory{
+    static function create($type){
+        switch ($type) {
+            case 'wechat':
+                $pay = new wechatPay();
+                break;
+            case 'alipay':
+                $pay = new aliPay();
+                break;
+        }
+        return $pay;
+    }
+}
 class order{
-    public function payBy(pay $pay){
+    public function payBy($type){
+        $pay = payFactory::create($type);
         $pay->doPay();
     }
 }
 $order = new order;
-$order->payBy(new wechatPay());//'wechat pay'
+$order->payBy('wechat');//'wechat pay'
 ```
