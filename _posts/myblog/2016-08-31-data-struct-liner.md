@@ -1,5 +1,5 @@
 ---
-title: 线性表和单链表
+title: 线性表
 tagline: ""
 last_updated: 2016-08-31 11:13
 category : data-struct
