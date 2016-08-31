@@ -54,6 +54,15 @@ class LinkList{
     public function __construct(){
         $this->header = new Header(0,null);
     }
+    public function getNext(){
+        $this->header->getNext();
+    }
+    public function setNext($next){
+        $this->header->setNext($next);
+    }
+    public function getLength(){
+        return $this->header->getLength();
+    }
     //头插法
     public function headerInsert($dataList){
         $count = count($dataList);
