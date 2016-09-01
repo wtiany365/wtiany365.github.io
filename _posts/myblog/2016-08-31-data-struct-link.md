@@ -1,12 +1,12 @@
 ---
-title: 单链表
+title: 线性表-链式存储结构-单链表
 tagline: ""
 last_updated: 2016-08-31 11:13
 category : data-struct
 layout: post
 tags : [data-struct]
 ---
-单链表
+线性表-链式存储结构-单链表
 
 ```php
 class Node{
